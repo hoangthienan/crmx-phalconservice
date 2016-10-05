@@ -1,4 +1,4 @@
-FROM hoangthienan/docker-nginx-phalcon:latest
+FROM hoangthienan/docker-nginx-phalcon:v2.0.13
 
 RUN apt-get update 
 RUN DEBIAN_FRONTEND="noninteractive" apt-get install -y python-setuptools python-pip
